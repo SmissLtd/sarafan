@@ -1,0 +1,82 @@
+#list-contacts h3, #list-requests .h3 {
+    border-bottom: solid 1px black;
+}
+
+#list-contacts h4 {
+    border-bottom: solid 1px black;
+    margin-bottom: 0;
+}
+
+#list-contacts .comment {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    background-color: lightgray;
+    min-height: 100px;
+    display: block;
+}
+
+#list-requests .comment {
+    border: solid 1px black;
+    background-color: lightgray;
+    min-height: 100px;
+    display: block;
+}
+
+#more-contacts, #more-requests {
+    margin-top: 30px;
+}
+
+#list-contacts #rating > div, #list-requests #rating > div {
+    margin-top: 10px;
+}
+
+#list-contacts #rating #users #all, #list-requests #rating #users #all {
+    cursor: pointer;
+    
+}
+
+#confirm-delete-contact, #popup-contact-edit, #confirm-delete-request, #popup-request-edit {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+}
+
+#confirm-delete-contact form, #popup-contact-edit form, #confirm-delete-request form, #popup-request-edit form {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 600px;
+    margin-left: -300px;
+    background-color: white;
+}
+
+#popup-contact-edit form, #popup-request-edit form {
+    width: 800px;
+    margin-left: -400px;
+}
+
+#confirm-delete-contact form > div, #popup-contact-edit form > div, #confirm-delete-request form > div, #popup-request-edit form > div {
+    padding: 15px;
+}
+
+#confirm-delete-contact h1, #popup-contact-edit h1, #confirm-delete-request h1, #popup-request-edit h1 {
+    margin: 0;
+    font-size: 24px;
+    background-color: #00b3ee;
+    position: relative;
+    padding: 10px;
+}
+
+#confirm-delete-contact h1 span, #popup-contact-edit h1 span, #confirm-delete-request h1 span, #popup-request-edit h1 span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    font-size: 44px;
+}

@@ -1,0 +1,8 @@
+/.svn
+/trunk/runtime/HTML
+/trunk/runtime/URI
+/trunk/runtime/debug
+/trunk/runtime/logs
+/trunk/tests
+/trunk/composer.lock
+/trunk/config/db.php

@@ -1,0 +1,27 @@
+#form-register #step-social, #form-register #step-register, #form-restore {
+    display: none;
+}
+
+#form-register #step-social {
+    text-align: center;
+}
+
+#form-register .errors {
+    word-break: normal;
+    text-align: right !important;
+}
+
+#form-register div.auth-clients {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#form-register ul.auth-clients {
+    display: inline-block;
+    padding: 0;
+}
+
+#form-register .btn-block {
+    color: gray;
+}

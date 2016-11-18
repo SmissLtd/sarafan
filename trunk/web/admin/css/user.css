@@ -1,0 +1,96 @@
+body > .wrap > .container {
+    width: 100%;
+}
+
+.table > thead > tr > th, .table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.table > thead > tr > th {
+    text-align: center;
+    font-size: 20px;
+}
+
+.table > tbody > tr.deleted {
+    color: gray;
+    font-style: italic;
+}
+
+.pagination {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.table > thead > tr > th.sortable {
+    cursor: pointer;
+}
+
+.table > thead > tr > th.sortable:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.table > thead > tr > th.desc span:after {
+    content: "↓";
+}
+
+.table > thead > tr > th.asc span:after {
+    content: "↑";
+}
+
+.table > tbody > tr > td.edit, .table > tbody > tr > td.referrers {
+    cursor: pointer;
+}
+
+.table > tbody > tr > td.edit:hover, .table > tbody > tr > td.referrers:hover {
+    background-color: lightblue;
+}
+
+#popup-user-edit, #popup-user-block, #confirm-delete-user {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+}
+
+#confirm-delete-user {
+    display: none;
+}
+
+#confirm-delete-user #title {
+    color: magenta;
+    font-weight: bold;
+}
+
+#popup-user-edit form, #popup-user-block form, #confirm-delete-user > div {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 600px;
+    margin-left: -300px;
+    background-color: white;
+}
+
+#popup-user-edit form > div, #popup-user-block form > div, #confirm-delete-user > div > div {
+    padding: 15px;
+}
+
+#popup-user-edit h1, #popup-user-block h1, #confirm-delete-user h1 {
+    margin: 0;
+    font-size: 24px;
+    background-color: #00b3ee;
+    position: relative;
+    padding: 10px;
+}
+
+#popup-user-edit h1 span, #popup-user-block h1 span, #confirm-delete-user h1 span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    font-size: 44px;
+}

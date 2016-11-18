@@ -1,0 +1,140 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.errors {
+    color: red;
+    text-align: left;
+    font-size: 12px;
+}
+
+#popup-create-contact, #popup-create-request, #popup-confirm-contact-edit {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+}
+
+#popup-create-contact form, #popup-create-request form, #popup-confirm-contact-edit > div {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 600px;
+    margin-left: -300px;
+    background-color: white;
+}
+
+#popup-create-contact form > div, #popup-create-request form > div, #popup-confirm-contact-edit > div > div, #popup-confirm-contact-edit > div > p {
+    padding: 15px;
+}
+
+#popup-create-contact h1, #popup-create-request h1, #popup-confirm-contact-edit h1 {
+    margin: 0;
+    font-size: 24px;
+    background-color: #00b3ee;
+    position: relative;
+    padding: 10px;
+}
+
+#popup-create-contact h1 span, #popup-create-request h1 span, #popup-confirm-contact-edit h1 span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    font-size: 44px;
+}
+
+#ratings {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#ratings > div {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 90%;
+    height: 80%;
+    overflow-y: auto;
+    background-color: white;
+}
+
+#ratings h1 {
+    margin: 0;
+    font-size: 24px;
+    background-color: #00b3ee;
+    position: relative;
+    padding: 10px;
+}
+
+#ratings h1 span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    font-size: 44px;
+}
+
+#ratings .row {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+#ratings .row > div {
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px black;
+    float: left;
+}
+
+.ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.auth-clients .auth-client .auth-link {
+    width: 100px;
+}
+
+.auth-clients .auth-client.exists .auth-link {
+    color: green;
+}
+
+.auth-clients .auth-client.exists .auth-link .auth-title::before {
+    content: '✔ ';
+    display: inline-block;
+}
+
+.nav > li.hidable {
+    display: none;
+}

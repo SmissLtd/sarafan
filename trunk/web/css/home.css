@@ -1,0 +1,120 @@
+#categories:before, #subcategories:before, #form-create-request:before, #form-create-contact:before {
+    display: block;
+    height: 55px;
+    border-bottom: solid 1px #000000;
+    content: " ";
+    margin-bottom: 15px;
+}
+
+#subcategories {
+    display: none;
+}
+
+#categories .container-list, #subcategories .container-list {
+    display: table;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#categories b, #subcategories b {
+    font-size: 20px;
+}
+
+#categories .container-list > div, #subcategories .container-list > div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#categories .prev, #categories .next, #subcategories .prev, #subcategories .next {
+    width: 50px;
+    vertical-align: middle!important;
+    text-align: center;
+}
+
+#categories .prev span, #categories .next span, #subcategories .prev span, #subcategories .next span {
+    border: solid 1px #000000;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    line-height: 35px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#categories .prev span:hover, #categories .next span:hover, #subcategories .prev span:hover, #subcategories .next span:hover {
+    border-color: green;
+    color: green;
+}
+
+#categories .prev.disabled span, #categories .next.disabled span, #subcategories .prev.disabled span, #subcategories .next.disabled span {
+    cursor: auto;
+    opacity: 0.3;
+}
+
+#categories .prev.disabled span:hover, #categories .next.disabled span:hover, #subcategories .prev.disabled span:hover, #subcategories .next.disabled span:hover {
+    border-color: #000000;
+    color: #000000;
+}
+
+#categories .list > div > div, #subcategories .list > div > div {
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#categories .list > div > div:hover, #subcategories .list > div > div:hover {
+    color: green;
+}
+
+#categories .list > div > div:hover span, #subcategories .list > div > div:hover span {
+    background-color: green;
+}
+
+#categories .list > div > div span, #subcategories .list > div > div span {
+    border: solid 1px #000000;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#form-create-request .close, #form-create-contact .close {
+    display: none;
+}
+
+#form-create-request h1, #form-create-contact h1 {
+    padding-left: 15px;
+}
+
+#categories .list > div > div.active {
+    color: green;
+}
+
+#categories .list > div > div.active span {
+    background-color: green;
+}
+
+#options {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.mb150 {
+    margin-bottom: 150px;
+}
+
+#options > div {
+    height: 115px;
+    line-height: 115px;
+}
+
+#options .col-sm-5 {
+    font-weight: bold;
+    font-size: 36px;
+}

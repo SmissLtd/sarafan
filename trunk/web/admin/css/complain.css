@@ -1,0 +1,20 @@
+body > .wrap > .container {
+    width: 100%;
+}
+
+.table > thead > tr > th, .table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.table > thead > tr > th {
+    text-align: center;
+    font-size: 20px;
+}
+
+table .user {
+    cursor: pointer;
+}
+
+table .user:hover {
+    background-color: lightblue;
+}

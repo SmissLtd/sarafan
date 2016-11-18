@@ -1,0 +1,47 @@
+.tabs > a {
+    width: 200px;
+}
+
+.pagination {
+    margin: 0;
+}
+
+#popup-profile {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+}
+
+#popup-profile form {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 600px;
+    margin-left: -300px;
+    background-color: white;
+}
+
+#popup-profile form > div {
+    padding: 15px;
+}
+
+#popup-profile h1 {
+    margin: 0;
+    font-size: 24px;
+    background-color: #00b3ee;
+    position: relative;
+    padding: 10px;
+}
+
+#popup-profile h1 span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    font-size: 44px;
+}

@@ -1,0 +1,86 @@
+#list-requests .h3, #contacts h3 {
+    border-bottom: solid 1px black;
+}
+
+#list-requests .comment, #contacts .comment {
+    border: solid 1px black;
+    background-color: lightgray;
+    min-height: 100px;
+}
+
+#list-requests #rating > div, #contacts #rating > div {
+    margin-top: 10px;
+}
+
+#popup-create-answer, #popup-create-complain, #popup-answer-edit, #confirm-answer-delete {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+}
+
+#popup-create-answer form, #popup-create-complain form, #popup-answer-edit form, #confirm-answer-delete form {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 600px;
+    margin-left: -300px;
+    background-color: white;
+}
+
+#popup-answer-edit form, #confirm-answer-delete form {
+    width: 800px;
+    margin-left: -400px;
+}
+
+#popup-create-answer form > div, #popup-create-complain form > div, #popup-answer-edit form > div, #confirm-answer-delete form > div {
+    padding: 15px;
+}
+
+#popup-create-answer h1, #popup-create-complain h1, #popup-answer-edit h1, #confirm-answer-delete h1 {
+    margin: 0;
+    font-size: 24px;
+    background-color: #00b3ee;
+    position: relative;
+    padding: 10px;
+}
+
+#popup-create-answer h1 span, #popup-create-complain h1 span, #popup-answer-edit h1 span, #confirm-answer-delete h1 span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    font-size: 44px;
+}
+
+#contacts #rating #users span {
+    cursor: pointer;
+}
+
+#contacts #answers .col-sm-9 > h3 {
+    margin-bottom: 0;
+}
+
+#contacts #answers .col-sm-9 > div {
+    border: solid 1px black;
+    border-top: none;
+    padding: 5px;
+}
+
+#contacts #answers .col-sm-9 > div .quote {
+    display: block;
+    padding: 5px;
+    margin: 0px 5px 5px 50px;
+    border: solid 1px black;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-color: lightskyblue;
+}
+
+#contacts #answers .col-sm-9 > div .quote h3 {
+    font-size: 18px;
+}
